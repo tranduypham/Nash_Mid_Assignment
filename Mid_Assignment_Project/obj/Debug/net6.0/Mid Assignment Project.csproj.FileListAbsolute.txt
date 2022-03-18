@@ -1,0 +1,183 @@
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\appsettings.Development.json
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\appsettings.json
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Mid Assignment Project.exe
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Mid Assignment Project.deps.json
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Mid Assignment Project.runtimeconfig.json
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Mid Assignment Project.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\ref\Mid Assignment Project.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Mid Assignment Project.pdb
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Humanizer.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\NasTech\Mid Assignment Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.csproj.AssemblyReference.cache
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.AssemblyInfoInputs.cache
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.AssemblyInfo.cs
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.csproj.CoreCompileInputs.cache
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.MvcApplicationPartsAssemblyInfo.cs
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.MvcApplicationPartsAssemblyInfo.cache
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\staticwebassets.build.json
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\staticwebassets.development.json
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\scopedcss\bundle\Mid Assignment Project.styles.css
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.csproj.CopyComplete
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.dll
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\ref\Mid Assignment Project.dll
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.pdb
+E:\NasTech\Mid Assignment Project\obj\Debug\net6.0\Mid Assignment Project.genruntimeconfig.cache
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\appsettings.Development.json
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\appsettings.json
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.exe
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.deps.json
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.runtimeconfig.json
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\ref\Mid Assignment Project.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.pdb
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Humanizer.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\NasTech\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.csproj.AssemblyReference.cache
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.AssemblyInfoInputs.cache
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.AssemblyInfo.cs
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.csproj.CoreCompileInputs.cache
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.MvcApplicationPartsAssemblyInfo.cs
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.MvcApplicationPartsAssemblyInfo.cache
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\staticwebassets.build.json
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\staticwebassets.development.json
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\scopedcss\bundle\Mid Assignment Project.styles.css
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.csproj.CopyComplete
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.dll
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\ref\Mid Assignment Project.dll
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.pdb
+E:\NasTech\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.genruntimeconfig.cache
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\appsettings.Development.json
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\appsettings.json
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.exe
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.deps.json
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.runtimeconfig.json
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\ref\Mid Assignment Project.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Mid Assignment Project.pdb
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Humanizer.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.csproj.AssemblyReference.cache
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.AssemblyInfoInputs.cache
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.AssemblyInfo.cs
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.csproj.CoreCompileInputs.cache
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.MvcApplicationPartsAssemblyInfo.cs
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.MvcApplicationPartsAssemblyInfo.cache
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\staticwebassets.build.json
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\staticwebassets.development.json
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\scopedcss\bundle\Mid Assignment Project.styles.css
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.csproj.CopyComplete
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\ref\Mid Assignment Project.dll
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.pdb
+E:\NasTech\Mid_Assignment\Mid_Assignment_Project\obj\Debug\net6.0\Mid Assignment Project.genruntimeconfig.cache
