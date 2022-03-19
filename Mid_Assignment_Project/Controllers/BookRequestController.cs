@@ -27,15 +27,17 @@ namespace Mid_Assignment_Project.Controllers
             bool isAdmin = _userServices.IsAdmin(tokenAuth);
             if(isAdmin){
                 var list = _bookRequestServices.showListRequest(param);
-                var metadata = new {
-                    list.CurrentPage,
-                    list.TotalPage,
-                    list.PageSize,
-                    list.TotalCount,
-                    list.HasNext,
-                    list.HasPrevious
-                };
-                Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(metadata));
+                if(list != null ){
+                    var metadata = new {
+                        list.CurrentPage,
+                        list.TotalPage,
+                        list.PageSize,
+                        list.TotalCount,
+                        list.HasNext,
+                        list.HasPrevious
+                    };
+                    Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(metadata));
+                }
                 return Ok(list);
             }
             return StatusCode(403);
@@ -56,7 +58,7 @@ namespace Mid_Assignment_Project.Controllers
         {
             // Check token -> get user ID
             int userId = _userServices.getUserId(tokenAuth);
-            if(userId == null || userId <= 0) return BadRequest("Invalid Token");
+            if(userId == null || userId <= 0) return BadRequest(new {Message = "Invalid Token"});
 
             // Check user order in a month not pass 3 order
             var listUserRequest = _userServices.listUserBookRequest(tokenAuth);

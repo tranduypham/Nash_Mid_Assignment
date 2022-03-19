@@ -27,15 +27,17 @@ namespace Mid_Assignment_Project.Controllers
         public ActionResult<IEnumerable<Category>> GetCategorys([FromQuery] CategoryPaginateParameter catePage)
         {
             PaginateList<Category> list = _cateServices.showList(catePage);
-            var metadata = new {
-                list.CurrentPage,
-                list.TotalPage,
-                list.PageSize,
-                list.TotalCount,
-                list.HasNext,
-                list.HasPrevious
-            };
-            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(metadata));
+            if(list != null){
+                var metadata = new {
+                    list.CurrentPage,
+                    list.TotalPage,
+                    list.PageSize,
+                    list.TotalCount,
+                    list.HasNext,
+                    list.HasPrevious
+                };
+                Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(metadata));
+            }
             return Ok(list);
         }
 
@@ -43,15 +45,17 @@ namespace Mid_Assignment_Project.Controllers
         public ActionResult<IEnumerable<BookWithCategory>> GetBookByCategoryId(int id, [FromQuery] CategoryPaginateParameter catePage)
         {
             var list = _cateServices.showBook(id, catePage);
-            var metadata = new {
-                list.CurrentPage,
-                list.TotalPage,
-                list.PageSize,
-                list.TotalCount,
-                list.HasNext,
-                list.HasPrevious
-            };
-            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(metadata));
+            if(list != null) {
+                var metadata = new {
+                    list.CurrentPage,
+                    list.TotalPage,
+                    list.PageSize,
+                    list.TotalCount,
+                    list.HasNext,
+                    list.HasPrevious
+                };
+                Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(metadata));
+            }
             return Ok(list);
         }
 

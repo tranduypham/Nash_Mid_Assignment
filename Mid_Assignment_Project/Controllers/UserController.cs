@@ -22,7 +22,6 @@ namespace Mid_Assignment_Project.Controllers
         public ActionResult<User> Login(User user)
         {
             Token token = _userServices.Login(user);
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
             if (token != null)
             {
                 return Ok(new
@@ -41,7 +40,6 @@ namespace Mid_Assignment_Project.Controllers
             bool isValid = _userServices.IsValid(tokenAuth);
             if (isValid)
             {
-                Response.Headers.Add("Access-Control-Allow-Origin", "*");
                 return Ok(new { Message = "token valid" });
             }
             return BadRequest(new { Message = "please logout" });
