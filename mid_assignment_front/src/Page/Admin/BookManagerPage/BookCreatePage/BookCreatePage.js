@@ -1,4 +1,6 @@
 import axios from "axios";
+import { useFormik } from "formik";
+import * as Yup from 'yup';
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useLoginState } from "../../../hooks";
@@ -6,10 +8,10 @@ import { useLoginState } from "../../../hooks";
 const BookCreatePage = (props) => {
     const [loginState] = useLoginState();
     const [cateData, setCateData] = useState([]);
-    const [submitData, setSubmitData] = useState({
-        bookName: "",
-        categoryId: ""
-    })
+    // const [submitData, setSubmitData] = useState({
+    //     bookName: "",
+    //     categoryId: ""
+    // })
 
     const fetchData = (url, method, data) => {
         const header = {}
@@ -34,69 +36,114 @@ const BookCreatePage = (props) => {
         }
     }, [])
 
-    const handleCateSelect = (event) => {
-        console.log(event.target.value)
-        setSubmitData({
-            ...submitData,
-            categoryId: event.target.value
-        })
+    // const handleCateSelect = (event) => {
+    //     console.log(event.target.value)
+    //     setSubmitData({
+    //         ...submitData,
+    //         categoryId: event.target.value
+    //     })
+    // }
+
+    // const handleNameChang = (event) => {
+    //     console.log(event.target.value)
+    //     setSubmitData({
+    //         ...submitData,
+    //         bookName: event.target.value
+    //     })
+    // }
+
+    // const handleCreate = (event) => {
+    //     event.preventDefault();
+    //     console.log(submitData);
+    //     fetchData("https://localhost:7140/api/Book", "POST", submitData)
+    //         .then(res => {
+    //             alert(res.data.message);
+    //             setSubmitData({
+    //                 bookName: "",
+    //                 categoryId: ""
+    //             });
+    //             // console.log(res.data);
+    //         }).catch(err => {
+    //             alert("Create fail");
+    //         })
+    // }
+    const submit = (data) => {
+        console.log(data);
+        
+        fetchData("https://localhost:7140/api/Book", "POST", data)
+            .then(res => {
+                alert(res.data.message);
+                formik.resetForm();
+            }).catch(err => {
+                alert("Create fail");
+            })
     }
 
-    const handleNameChang = (event) => {
-        console.log(event.target.value)
-        setSubmitData({
-            ...submitData,
-            bookName: event.target.value
-        })
-    }
+    const formik = useFormik({
+        initialValues: {
+            bookName: "",
+            categoryId: ""
+        },
+        validationSchema: Yup.object({
+            bookName: Yup.string()
+                .required('Book name is required'),
+            categoryId: Yup.number()
+                .required("Category is required")
+                .moreThan(0, "Invalid category")
+        }),
+        onSubmit: value => {
+            submit(value);
+        }
 
-    const handleCreate = (event) => {
-        event.preventDefault();
-        console.log(submitData);
-        fetchData("https://localhost:7140/api/Book", "POST", submitData)
-        .then(res => {
-            alert(res.data.message);
-            setSubmitData({
-                bookName: "",
-                categoryId: ""
-            });
-            // console.log(res.data);
-        }).catch(err => {
-            alert("Create fail");
-        })
-    }
+    })
 
     return (
         <>
             <div className="mt-2 mb-3">
-                <form onSubmit={handleCreate}>
+                <form onSubmit={formik.handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Book's name</label>
                         <input
                             type="text"
                             className="form-control"
-                            id="exampleInputEmail1"
-                            aria-describedby="emailHelp"
+                            id="bookName"
+                            name="bookName"
+                            aria-describedby="bookNameError"
                             placeholder="Enter name"
-                            value={submitData.bookName}
-                            onChange={handleNameChang}
+                            value={formik.values.bookName}
+                            onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
                         />
-                        <small id="emailHelp" className="form-text text-muted"></small>
+                        <small id="bookNameError" className="form-text text-danger">
+                            {
+                                formik.touched.bookName && formik.errors.bookName ?
+                                    formik.errors.bookName :
+                                    null
+                            }
+                        </small>
                     </div>
                     <div className="form-group">
                         <label htmlFor="exampleFormControlSelect1">Category</label>
                         <select
                             className="form-control"
-                            id="exampleFormControlSelect1"
+                            id="categoryId"
                             name="categoryId"
-                            value={submitData.categoryId}
-                            onChange={handleCateSelect}
+                            value={formik.values.categoryId}
+                            onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
                         >
                             <option></option>
                             {cateData.map((item, index) =>
                                 (<option value={item.categoryId} key={index}>{item.categoryName}</option>)
                             )}
                         </select>
+                        <small id="categoryIdError" className="form-text text-danger">
+                            {
+                                formik.touched.categoryId && formik.errors.categoryId ?
+                                    formik.errors.categoryId :
+                                    null
+                            }
+                        </small>
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>

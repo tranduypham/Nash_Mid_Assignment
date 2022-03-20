@@ -1,4 +1,6 @@
 import axios from "axios";
+import { useFormik } from "formik";
+import * as Yup from 'yup';
 import React, { useEffect, useRef, useState } from "react"
 import { Link, useParams } from "react-router-dom";
 import { useLoginState } from "../../hooks";
@@ -12,7 +14,7 @@ const CategoryManagerPage = () => {
         categoryId: 0,
         categoryName: "",
     })
-    
+
     const [paginate, setPaginate] = useState({
         CurrentPage: 1,
         // TotalPage: NaN,
@@ -34,7 +36,7 @@ const CategoryManagerPage = () => {
         })
     }
 
-    console.log(cateList)
+    console.log(submitData.categoryId);
     useEffect(() => {
         fetchData("https://localhost:7140/api/Category?" + `pageSize=${paginate.PageSize}` + "&&" + `CurrentPage=${paginate.CurrentPage}`, "GET")
             .then(res => {
@@ -66,6 +68,10 @@ const CategoryManagerPage = () => {
                 setCateList(cateList.filter((item) => {
                     return item.categoryId !== id;
                 }))
+                setSubmitData({
+                    ...submitData,
+                    categoryId: Math.floor(Math.random() * 100)
+                })
             }).catch(err => {
                 alert("Delete fail");
             })
@@ -95,63 +101,85 @@ const CategoryManagerPage = () => {
     }
 
     const handleCancelEdit = () => {
-        console.log("cancel");
-        setSubmitData({
-            ...submitData,
-            categoryId: 0,
-            categoryName: ""
-        })
+        formikEditCate.resetForm();
     }
 
     const handleCancelCreate = () => {
-        console.log("cancel");
-        setSubmitData({
-            ...submitData,
-            categoryId: 0,
-            categoryName: ""
-        })
+        formikCreateCate.resetForm();
     }
 
-    const handleSubmitEdit = () => {
-        fetchData("https://localhost:7140/api/Category/" + submitData.categoryId, "PUT", submitData)
+    const submitEdit = (value) => {
+        fetchData("https://localhost:7140/api/Category/" + submitData.categoryId, "PUT", value)
             .then(res => {
                 console.log(res.data);
                 alert(res.data.message);
                 setSubmitData({
                     ...submitData,
-                    categoryId: 0,
+                    categoryId: Math.floor(Math.random() * 100),
                     categoryName: ""
                 })
+                formikEditCate.resetForm();
                 handleCloseModal();
             }).catch(err => {
                 alert("Edit fail");
             })
     }
 
-    const handleSubmitCreate = () => {
-        
-        fetchData("https://localhost:7140/api/Category", "POST", submitData)
+    const submitCreate = (value) => {
+
+        fetchData("https://localhost:7140/api/Category", "POST", value)
             .then(res => {
                 console.log(res.data);
                 alert(res.data.message);
                 setSubmitData({
                     ...submitData,
-                    categoryId: 0,
+                    categoryId: Math.floor(Math.random() * 100),
                     categoryName: ""
                 })
-                handleCloseModal();
+                formikCreateCate.resetForm();
+                // handleCloseModal();
             }).catch(err => {
                 alert("Create fail");
             })
     }
 
-    const handleNameChange = (event) => {
-        console.log(event.target.value)
-        setSubmitData({
-            ...submitData,
-            categoryName: event.target.value
-        })
-    }
+
+    const formikCreateCate = useFormik({
+        enableReinitialize: true,
+        initialValues: {
+            categoryName: ""
+        },
+        validationSchema: Yup.object({
+            categoryName: Yup.string()
+                .required('Category name is required'),
+        }),
+        onSubmit: value => {
+            submitCreate(value);
+        }
+    })
+
+    const formikEditCate = useFormik({
+        enableReinitialize: true,
+        initialValues: {
+            categoryId : submitData.categoryId !== 0 ? submitData.categoryId : 0,
+            categoryName: submitData.categoryName !== "" ? submitData.categoryName : ""
+        },
+        validationSchema: Yup.object({
+            categoryName: Yup.string()
+                .required('Category name is required'),
+        }),
+        onSubmit: value => {
+            submitEdit(value);
+        }
+    })
+
+    // const handleNameChange = (event) => {
+    //     console.log(event.target.value)
+    //     setSubmitData({
+    //         ...submitData,
+    //         categoryName: event.target.value
+    //     })
+    // }
 
     const handlePage = (newCurrentPage) => {
         console.log(newCurrentPage)
@@ -160,7 +188,7 @@ const CategoryManagerPage = () => {
             CurrentPage: newCurrentPage
         })
     }
-    
+
     const handlePrev = () => {
         let current = paginate.CurrentPage;
         setPaginate({
@@ -267,11 +295,6 @@ const CategoryManagerPage = () => {
                     )
             }
 
-            {/* <!-- Button trigger modal --> */}
-            {/* <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Launch demo modal
-            </button> */}
-
             {/* <!-- Modal --> */}
             <div className="modal fade" id="modalEdit" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false">
                 <div className="modal-dialog" role="document">
@@ -286,13 +309,21 @@ const CategoryManagerPage = () => {
                                     <input
                                         type="text"
                                         className="form-control"
-                                        id="exampleInputEmail1"
+                                        id="categoryName"
+                                        name="categoryName"
                                         aria-describedby="emailHelp"
                                         placeholder="Enter name"
-                                        value={submitData.categoryName}
-                                        onChange={handleNameChange}
+                                        value={formikEditCate.values.categoryName}
+                                        onChange={formikEditCate.handleChange}
+                                        onBlur={formikEditCate.handleBlur}
                                     />
-                                    <small id="emailHelp" className="form-text text-muted"></small>
+                                    <small id="emailHelp" className="form-text text-danger">
+                                        {
+                                            formikEditCate.touched.categoryName && formikEditCate.errors.categoryName ?
+                                                formikEditCate.errors.categoryName :
+                                                null
+                                        }
+                                    </small>
                                 </div>
                             </form>
                         </div>
@@ -312,7 +343,7 @@ const CategoryManagerPage = () => {
                             <button
                                 type="button"
                                 className="btn btn-primary"
-                                onClick={handleSubmitEdit}
+                                onClick={formikEditCate.handleSubmit}
                             >
                                 Save changes
                             </button>
@@ -334,13 +365,21 @@ const CategoryManagerPage = () => {
                                     <input
                                         type="text"
                                         className="form-control"
-                                        id="exampleInputEmail1"
+                                        id="categoryName"
+                                        name="categoryName"
                                         aria-describedby="emailHelp"
                                         placeholder="Enter name"
-                                        value={submitData.categoryName}
-                                        onChange={handleNameChange}
+                                        value={formikCreateCate.values.categoryName}
+                                        onChange={formikCreateCate.handleChange}
+                                        onBlur={formikCreateCate.handleBlur}
                                     />
-                                    <small id="emailHelp" className="form-text text-muted"></small>
+                                    <small id="emailHelp" className="form-text text-danger">
+                                        {
+                                            formikCreateCate.touched.categoryName && formikCreateCate.errors.categoryName ?
+                                                formikCreateCate.errors.categoryName :
+                                                null
+                                        }
+                                    </small>
                                 </div>
                             </form>
                         </div>
@@ -359,7 +398,7 @@ const CategoryManagerPage = () => {
                             <button
                                 type="button"
                                 className="btn btn-primary"
-                                onClick={handleSubmitCreate}
+                                onClick={formikCreateCate.handleSubmit}
                             >
                                 Save changes
                             </button>
